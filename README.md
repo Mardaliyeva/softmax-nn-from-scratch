@@ -4,11 +4,13 @@ A from-scratch implementation of Softmax Regression and a basic Neural Network, 
 # Project
 
 ## Structure
+
 starter_pack/
- ├── data/
- ├── scripts/
- ├── src/
- ├── figures/
- ├── results/
- ├── report/
- ├── slides/
+│
+├── data/
+├── scripts/
+├── src/
+├── figures/
+├── results/
+├── report/
+└── slides/
