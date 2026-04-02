@@ -1,16 +1,23 @@
-# softmax-nn-from-scratch
-A from-scratch implementation of Softmax Regression and a basic Neural Network, featuring forward propagation, backpropagation, optimization algorithms, and a full training pipeline.
+# ML From Scratch: Softmax & Neural Network
 
-# Project
+**Description:**  
+A from-scratch implementation of Softmax Regression and a basic Neural Network, including forward pass, backpropagation, optimization, and training loop using only NumPy.
 
 ## Structure
 
 starter_pack/
 │
-├── data/
-├── scripts/
-├── src/
-├── figures/
-├── results/
-├── report/
-└── slides/
+├── data/       # datasets
+├── scripts/    # utility scripts
+├── src/        # core implementation (models, training)
+├── figures/    # plots and visualizations
+├── results/    # outputs and metrics
+├── report/     # LaTeX report
+└── slides/     # presentation files
+
+
+## Usage
+
+1. Clone the repository:  
+   ```bash
+   git clone <repo-url>
