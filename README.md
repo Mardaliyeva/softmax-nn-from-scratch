@@ -1,22 +1,8 @@
+
+# 📘 Math4AI Final Capstone Project
 ---
 
-# Math4AI Final Capstone Project
-
-## From Linear Scores to a Single Hidden Layer
-
-### A Mathematical Study of Simple Learning Systems
-
-*Authors:*
-Aytan Mardaliyeva
-Ulkar Rahimli
-Madina Mammadli
-
-National AI Center — AI Academy, Azerbaijan
-March 2026
-
----
-
-# Project Overview
+# 📝 Project Overview
 
 This project studies a fundamental question in machine learning:
 
@@ -33,11 +19,11 @@ The goal is not simply to achieve high accuracy, but to understand the *mathemat
 
 ---
 
-# Mathematical Background
+# 📐 Mathematical Background
 
 This project is deeply connected to concepts from:
 
-### Linear Algebra
+### 🟦 Linear Algebra
 
 Used to represent data and model parameters.
 
@@ -47,9 +33,7 @@ Used to represent data and model parameters.
 
 Example representation:
 
-
 X ∈ ℝ^(n × d)
-
 
 where
 
@@ -58,15 +42,13 @@ where
 
 Model parameters are also matrices:
 
-
 W ∈ ℝ^(k × d)
-
 
 These matrices transform input vectors into prediction scores.
 
 ---
 
-### Probability Theory
+### 🎲 Probability Theory
 
 Classification models output *probability distributions* over classes.
 
@@ -85,15 +67,13 @@ The predicted class is the class with *highest probability*.
 
 Prediction confidence is defined as:
 
-
 confidence(x) = max_j p_j(x)
-
 
 This concept is used in our *Track B analysis of prediction confidence and reliability.*
 
 ---
 
-### Calculus (Optimization)
+### 🔢 Calculus (Optimization)
 
 The model learns by *minimizing cross-entropy loss*.
 
@@ -114,7 +94,7 @@ Backpropagation applies the *chain rule* repeatedly through the network.
 
 ---
 
-### Statistics
+### 📊 Statistics
 
 Statistics is used in several important parts:
 
@@ -144,7 +124,7 @@ These statistical metrics help measure *prediction correctness and reliability*.
 
 ---
 
-# Models Implemented
+# 🖥️ Models Implemented
 
 ## 1. Softmax Regression (Linear Classifier)
 
@@ -171,9 +151,7 @@ This model works well when the true class boundary is approximately linear.
 
 Architecture:
 
-
 Input → Hidden Layer (tanh) → Output → Softmax
-
 
 Mathematically:
 
@@ -189,7 +167,7 @@ The hidden layer creates a *nonlinear feature transformation, allowing the model
 
 ---
 
-# Datasets
+# 🗂️ Datasets
 
 Three datasets were used to study different geometric structures.
 
@@ -248,17 +226,15 @@ The neural network also achieves *lower cross-entropy*, meaning it produces more
 
 ---
 
-# Experiments
+# 🧪 Experiments
 
 ## Capacity Ablation
 
 Hidden layer widths tested:
 
-
 2
 8
 32
-
 
 Results show that:
 
@@ -266,7 +242,7 @@ Results show that:
 * width 8 performs well
 * width 32 offers minimal additional improvement
 
-This demonstrates that *model capacity must match dataset complexity.*
+This demonstrates that *model capacity must match dataset complexity*.
 
 ---
 
@@ -296,7 +272,7 @@ This demonstrates a *representational limitation*, not an optimization failure.
 
 ---
 
-# Reliability and Confidence Analysis (Track B)
+# 🔒 Reliability and Confidence Analysis (Track B)
 
 The project also evaluates *prediction reliability*.
 
@@ -304,9 +280,7 @@ Metrics include:
 
 ### Prediction Confidence
 
-
 confidence(x) = max probability
-
 
 ### Predictive Entropy
 
@@ -330,8 +304,7 @@ The neural network is *better calibrated*.
 
 ---
 
-# Repository Structure
-
+# 📂 Repository Structure
 
 Project_AIAcademy/
 │
@@ -361,10 +334,9 @@ Project_AIAcademy/
 │
 └── project_presentation.pptx
 
-
 ---
 
-# Team Contributions
+# 🤝 Team Contributions
 
 ### Aytan
 
@@ -413,7 +385,7 @@ Implemented:
 
 ---
 
-# Key Findings
+# 🏆 Key Findings
 
 1. Linear classifiers perform well when the class boundary is linear.
 2. Neural networks outperform linear models on nonlinear datasets.
@@ -422,11 +394,4 @@ Implemented:
 
 ---
 
-# Conclusion
-
-This project demonstrates how fundamental concepts from mathematics power modern machine learning:
-
-* *Linear Algebra* – data representation and matrix computation
-* *Probability* – modeling class distributions and prediction confidence
-* *Calculus* – gradient-based optimization via backpropagation
-* *Statistics* – evaluation metrics, dataset splitting, and reliability analysis
+---
