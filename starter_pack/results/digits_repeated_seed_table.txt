@@ -1,0 +1,7 @@
+Digits repeated-seed results
+============================
+
+model                 | mean_acc | ci95_acc | mean_ce | ci95_ce
+----------------------+----------+----------+---------+--------
+Softmax Regression    | 0.9375   | 0.0034   | 0.2693  | 0.0004 
+Neural Network (Adam) | 0.9571   | 0.0073   | 0.1557  | 0.0165 

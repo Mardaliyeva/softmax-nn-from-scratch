@@ -1,0 +1,1 @@
+Failure mechanism: with only 2 hidden units, the tanh network does not have enough flexible nonlinear features to bend the decision boundary around both moon arcs. The learned separator stays too smooth and too coarse, so errors concentrate near the curved overlap region. The wider network (h=32) reshapes the feature space more effectively and reduces those boundary errors.

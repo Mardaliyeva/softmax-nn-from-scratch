@@ -1,0 +1,7 @@
+Track B summary
+===============
+
+model              | test_acc | test_ce | ece    | mean_conf_correct | mean_conf_incorrect | mean_entropy_correct | mean_entropy_incorrect
+-------------------+----------+---------+--------+-------------------+---------------------+----------------------+-----------------------
+Softmax Regression | 0.9402   | 0.2694  | 0.0974 | 0.8671            | 0.4978              | 0.4806               | 1.3388                
+Neural Network     | 0.9565   | 0.1509  | 0.0116 | 0.9682            | 0.6877              | 0.1042               | 0.7709                
